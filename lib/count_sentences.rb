@@ -28,6 +28,6 @@ end
 
   def count_sentences
     self.split(/[.?!]+/)
-    return count_sentences.count
+    return self.count
   end
 end
